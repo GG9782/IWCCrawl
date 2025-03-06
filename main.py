@@ -57,3 +57,6 @@ if __name__ == "__main__":
                 print(f"无法打开文件: {e}")
         else:
             print(f"文件不存在: {file_path}")
+
+        print("完成，程序将关闭")
+        time.sleep(3)
